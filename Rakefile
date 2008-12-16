@@ -11,12 +11,12 @@ end
 desc 'Default: run specs'
 task :default => 'spec'
 
-namespace :db do
-  desc "AutoMigrate the db"
-  task :migrate do
-    DataMapper.auto_migrate!
-  end
-end
+#namespace :db do
+#  desc "AutoMigrate the db"
+#  task :migrate do
+#    DataMapper.auto_migrate!
+#  end
+#end
 
 namespace :sinatra do
   desc "Updates or downloads the latest Sinatra build"

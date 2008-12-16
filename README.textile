@@ -1,6 +1,6 @@
 h1. Sinatra Starter Kit
 
-A starting point for your new Sinatra app. It loads you up with a Rails-ish directory structure with either a single or multiple controller files, models, views. It makes it easy to stay on top with the newest Sinatra-source. And it's ready to roll with RSpec and DataMapper.
+A starting point for your new Sinatra app. It loads you up with a Rails-ish directory structure with either a single or multiple controller files, models, views. It makes it easy to stay on top with the newest Sinatra-source. And it's ready to roll with RSpec and Sequel.
 
 h2. Configuration
 

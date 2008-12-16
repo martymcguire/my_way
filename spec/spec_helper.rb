@@ -1,7 +1,7 @@
 require "rubygems"
-require "dm-core"
+require "sequel"
 
 # !!! Include libs here
 
-DataMapper.setup(:default, "sqlite3::memory:")
-DataMapper.auto_migrate!
+DB = Sequel.sqlite # memory database
+# TODO: Migrate all models
